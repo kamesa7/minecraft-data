@@ -1,0 +1,65 @@
+{
+  "types": {
+    "MC|Brand":"string",
+    "MC|TrList": [
+      "container",
+      [
+        {
+          "name": "windowId",
+          "type": "i32"
+        },
+        {
+          "name": "trades",
+          "type": [
+            "array",
+            {
+              "countType": "i8",
+              "type": [
+                "container",
+                [
+                  {
+                    "name": "firstInput",
+                    "type": "slot"
+                  },
+                  {
+                    "name": "output",
+                    "type": "slot"
+                  },
+                  {
+                    "name": "hasSecondItem",
+                    "type": "bool"
+                  },
+                  {
+                    "name": "secondaryInput",
+                    "type": [
+                      "switch",
+                      {
+                        "compareTo": "hasSecondItem",
+                        "fields": {
+                          "true": "slot",
+                          "false": "void"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "disabled",
+                    "type": "bool"
+                  },
+                  {
+                    "name": "toolUses",
+                    "type": "i32"
+                  },
+                  {
+                    "name": "maxTradeuses",
+                    "type": "i32"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}
