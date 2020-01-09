@@ -9,7 +9,7 @@ Language independent module providing minecraft data for minecraft clients, serv
 
 Supports 
 * Minecraft PC version 0.30c (classic), 1.7.10, 1.8.8, 1.9 (15w40b, 1.9, 1.9.1-pre2, 1.9.2, 1.9.4),
- 1.10 (16w20a, 1.10-pre1, 1.10, 1.10.1, 1.10.2), 1.11 (16w35a, 1.11, 1.11.2), 1.12 (17w15a, 17w18b, 1.12-pre4, 1.12, 1.12.1, 1.12.2), 1.13(17w50a, 1.13, 1.13.1, 1.13.2-pre1, 1.13.2-pre2, 1.13.2) and 1.14(1.14, 1.14.1, 1.14.3, 1.14.4)
+ 1.10 (16w20a, 1.10-pre1, 1.10, 1.10.1, 1.10.2), 1.11 (16w35a, 1.11, 1.11.2), 1.12 (17w15a, 17w18b, 1.12-pre4, 1.12, 1.12.1, 1.12.2), 1.13(17w50a, 1.13, 1.13.1, 1.13.2-pre1, 1.13.2-pre2, 1.13.2), 1.14(1.14, 1.14.1, 1.14.3, 1.14.4) and 1.15(1.15, 1.15.1)
 * Minecraft PE version 0.14, 0.15 and 1.0
 
 ## Wrappers
@@ -58,7 +58,7 @@ See more information about this data in the [documentation](http://prismarinejs.
   
 ## Projects using minecraft-data
 
-These are the projects that use minecraft-data (through the wrappers) :
+These are the projects that use minecraft-data:
 
 | Project name | Language | Project type | Data used |
 | --- | --- | --- | --- |
@@ -68,7 +68,8 @@ These are the projects that use minecraft-data (through the wrappers) :
 | [SpockBot](https://github.com/SpockBotMC/SpockBot) | Python | bot library | biomes, blocks, items, materials, windows, recipes |
 | [PhaseBot](https://github.com/phase/PhaseBot) | Java | bot | blocks, items, materials |
 | [McEx](https://github.com/hansihe/McEx) | Elixir | server | blocks |
-| [VoxelGamesLib](https://github.com/MiniDigger/VoxelGamesLib) | Java | minigames server lib | blocks, items | 
+| [VoxelGamesLib](https://github.com/MiniDigger/VoxelGamesLib) | Java | minigames server library | blocks, items | 
+| [Phpcraft](https://github.com/Phpcraft/core) | PHP | all-around library | blocks, items, entities, protocol | 
 
 ## Extraction
 
